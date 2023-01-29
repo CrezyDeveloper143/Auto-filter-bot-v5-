@@ -520,8 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('♻️J͙O͙I͙N͙ O͙U͙R͙ C͙H͙A͙N͙N͙E͙L͙♻️', url="https://t.me/Rdx_hd_onlinee")
-                  ],[InlineKeyboardButton('♻️J͙O͙I͙N͙ O͙U͙R͙ G͙R͙O͙U͙P͙♻️', url="https://t.me/Cynite_movies_group12")
+                    InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/Rdx_hd_onlinee")
+                  ],[InlineKeyboardButton('♻️ᒍOIᑎ Oᑌᖇ GᖇOᑌᑭ♻️', url="https://t.me/Cynite_movies_group12")
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -532,7 +532,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.answer(MSG_ALRT)
     
-    elif query.data == "help":
+    elif query.data == "♻️𝙷𝙴𝙻𝙿♻️":
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
@@ -552,11 +552,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "about":
+    elif query.data == "♻️𝙰𝙱𝙾𝚄𝚃♻️":
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('♻️ B͙A͙C͙K͙U͙P͙ C͙H͙A͙N͙N͙E͙L͙ ♻️', url="https://t.me/Rdx_hd_onlinee")
+            InlineKeyboardButton('♻️ᗷᗩᑕKᑌᑭ ᑕᕼᗩᑎᑎEᒪ♻️', url="https://t.me/Rdx_hd_onlinee")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
